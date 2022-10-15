@@ -31,7 +31,7 @@ const myChart = new Chart(ctx, {
         labels: ['WIN', 'LOSS', 'GALE-1', 'GALE-2', 'GALE-3', 'GALE4','GALE-5'],
         datasets: [{
             label: 'DESENPENHO DO ROBO',
-            data: [win, loss, gale1, gale2, gale3, gale4],
+            data: [win, loss, gale1, gale2, gale3, gale4, gale5],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
                 'rgba(54, 162, 235, 0.2)',
@@ -39,6 +39,7 @@ const myChart = new Chart(ctx, {
                 'rgba(75, 192, 192, 0.2)',
                 'rgba(153, 102, 255, 0.2)',
                 'rgba(235, 159, 644, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
                 'rgba(255, 10, 12, 0.2)'
             ],
             borderColor: [
@@ -48,6 +49,7 @@ const myChart = new Chart(ctx, {
                 'rgba(75, 192, 192, 1)',
                 'rgba(153, 102, 255, 1)',
                 'rgba(255, 159, 64, 1)',
+                'rgba(75, 192, 192, 1)',
                 'rgba(255, 10, 12, 0.2)'
             ],
             borderWidth: 1
